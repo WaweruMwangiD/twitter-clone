@@ -1,11 +1,13 @@
 
 import './App.css';
+import Feed from './feed/Feed';
 import Sidebar from './sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Sidebar />
+      <Feed />
     </div>
   );
 }
